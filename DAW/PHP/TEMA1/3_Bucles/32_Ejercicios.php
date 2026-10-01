@@ -128,7 +128,7 @@
 
     <!--Ejercicio 10-->
     <p>Crea una funcion que dependiendo del parametro que se le pase , dibujara un triangulo mas o menos grande.
-        El parametro indicara el tamaño del triangulo. Altura minima 3 (Obligatorio)
+        El parametro indicara el tamaño del triangulo. Altura minima 3 (Obligatorio) </p>
         <?php
 
         function Triangulo($h)
@@ -148,7 +148,7 @@
         echo $Salto;
         echo $Salto;
         echo $Salto;
-
+        //otro trianglo 
         function TrianguloIsq($h)
         {
             global $Salto;
@@ -164,13 +164,66 @@
                 echo  $Salto;
             }
             echo "</pre>";
-        }
+        }   
+       
         TrianguloIsq(8);
-        echo $Salto;
-        echo $Salto;
-        echo $Salto;
+?>
+
+
+   
+
+        <?php
+        //tablita 
+        function tablita(int $n)
+        {
         ?>
-    </p>
+
+    <table border="">
+        <thead>
+            <tr>
+                <th>
+                </th>
+                <th>
+                </th>
+                <th>
+                </th>
+            </tr>
+        </thead> 
+        <tbody>
+            <?php
+            $color=1;
+            for ($i = $n; $i > -$n; $i--) {
+                if($i!=0){
+            ?>
+                <tr
+                <?php 
+                if($color%2!=0) echo"style='background-color:lightblue'";
+                else echo "style='background-color:pink'";
+                $color++;
+                ?>
+                >
+                    <td><?php echo $i; ?></td>
+                    <td><?= pow($i, 2); ?> </td>
+                    <td><?= pow($i, 3); ?> </td>
+                    <td>
+                        <?php
+                        //if ($i > 0) echo "positivo";
+                       // else echo "negativo";
+                        echo ($i > 0) ? "positivo" : "negativo";
+                        ?>
+                    </td>
+                </tr>
+            <?php
+            }
+              }
+            ?>
+        </tbody>
+    </table>
+<?php
+        }
+        tablita(5);
+?>
+
 </body>
 
 </html>
