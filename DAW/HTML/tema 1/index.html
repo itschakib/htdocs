@@ -100,8 +100,67 @@
         </table>
     </div>
     <h2>Tablas combinadas</h2>
-   
+
+    <h2>Formularios - nuevos inputs</h2>
+
+    <form method="post">
+
+        <label for="email">email</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url">
+        <br><br>
+
+        <label for="hora">hora</label>
+        <input type="time" name="hora" id="hora">
+        <br><br>
+
+        <label for="fecha y hora">fecha y hora</label>
+        <input type="datetime-local" name="fecha y hora " id="fecha y hora">
+        <br><br>
+
+
+        <label for="numero">numero</label>
+        <input type="number" name="numero" id="numero">
+        <br><br>
+
+        <label for="rango">rango</label>
+        <input type="range" name="rango" id="rango" min="0" max="100" value="10">
+        <br><br>
+
+
+        <label for="color">color</label>
+        <input type="color" name="rango" id="rango" value="#FF0000">
+        <br><br>
+    </form>
     
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+        <button type="button" onclick="alert('hola mndo')">hola mundo</button>
+
+        <br><br>
+
+        <input id="op1" type="checkbox" name="opcion1" value="1" checked>
+        <label for="op1" >opcion 1</label>
+
+    <input id="op2" type="checkbox" name="opcion2" value="2" >
+        <label for="op2" >opcion 2</label>
+
+          <input id="op3" type="checkbox" name="opcion3" value="3" checked>
+        <label for="op3" >opcion 3</label>
+
+
+        <br></br>
+        <input id="opt1" type="radio" name="opciones" value="1" checked>
+        <label for="opt1" >opcion 1</label>
+
+    <input id="opt2" type="radio" name="opciones" value="2" >
+        <label for="opt2" >opcion 2</label>
+
+          <input id="opt3" type="radio" name="opciones" value="3" checked>
+        <label for="opt3" >opcion 3</label>
 
 </body>
 
