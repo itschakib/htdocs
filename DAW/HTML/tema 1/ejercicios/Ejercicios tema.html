@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- ================================================== -->
+    <!-- 1. HEAD / INFORMACIÓN DE LA PÁGINA -->
+    <!-- ================================================== -->
+
+    <!-- Codificación de caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Adaptar la página a móvil y diferentes pantallas -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <!-- Descripción de la página -->
+    <meta name="description"
+          content="Página de repaso de HTML">
+
+    <!-- Palabras clave -->
+    <meta name="keywords"
+          content="HTML, etiquetas, listas, tablas, formularios">
+
+    <!-- Autor -->
+    <meta name="author"
+          content="Alumno">
+
+    <!-- Título de la pestaña -->
+    <title>Repaso completo de HTML</title>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================================================== -->
+    <!-- 2. TÍTULOS -->
+    <!-- ================================================== -->
+
+    <!--
+        Hay títulos desde h1 hasta h6.
+
+        h1 = título más importante
+        h6 = título menos importante
+    -->
+
+    <h1>Título principal</h1>
+
+    <h2>Subtítulo</h2>
+
+    <h3>Título 3</h3>
+
+    <h4>Título 4</h4>
+
+    <h5>Título 5</h5>
+
+    <h6>Título 6</h6>
+
+
+    <!-- ================================================== -->
+    <!-- 3. PÁRRAFOS -->
+    <!-- ================================================== -->
+
+    <p>
+        Esto es un párrafo.
+    </p>
+
+    <p>
+        Esto es otro párrafo.
+    </p>
+
+
+    <!-- ================================================== -->
+    <!-- 4. SALTOS Y LÍNEAS -->
+    <!-- ================================================== -->
+
+    <!-- Salto de línea -->
+    <br>
+
+    <!-- Línea horizontal -->
+    <hr>
+
+
+    <!-- ================================================== -->
+    <!-- 5. FORMATO DE TEXTO -->
+    <!-- ================================================== -->
+
+    <!-- Texto en negrita -->
+    <b>Texto en negrita</b>
+
+    <br>
+
+    <!-- Texto importante -->
+    <strong>Texto importante</strong>
+
+    <br>
+
+    <!-- Texto en cursiva -->
+    <i>Texto en cursiva</i>
+
+    <br>
+
+    <!-- Texto enfatizado -->
+    <em>Texto enfatizado</em>
+
+    <br>
+
+    <!-- Texto subrayado -->
+    <u>Texto subrayado</u>
+
+    <br>
+
+    <!-- Texto tachado -->
+    <s>Texto tachado</s>
+
+    <br>
+
+    <!-- Texto pequeño -->
+    <small>Texto pequeño</small>
+
+    <br>
+
+    <!-- Texto resaltado -->
+    <mark>Texto resaltado</mark>
+
+    <br>
+
+    <!-- Subíndice -->
+    H<sub>2</sub>O
+
+    <br>
+
+    <!-- Superíndice -->
+    x<sup>2</sup>
+
+
+    <hr>
+
+
+    <!-- ================================================== -->
+    <!-- 6. DIV -->
+    <!-- ================================================== -->
+
+    <!--
+        div sirve para agrupar diferentes elementos.
+        No tiene un significado especial por sí mismo.
+    -->
+
+    <div>
+
+        <h2>Contenido agrupado</h2>
+
+        <p>
+            Este contenido está dentro de un div.
+        </p>
+
+    </div>
+
+
+    <!-- ================================================== -->
+    <!-- 7. SPAN -->
+    <!-- ================================================== -->
+
+    <!--
+        span sirve para agrupar una pequeña parte
+        del texto.
+    -->
+
+    <p>
+        Este es un texto con
+        <span>una parte diferente</span>.
+    </p>
+
+
+    <!-- ================================================== -->
+    <!-- 8. IMÁGENES -->
+    <!-- ================================================== -->
+
+    <h2>Imágenes</h2>
+
+    <!--
+        img = imagen
+
+        src   = ruta de la imagen
+        alt   = texto alternativo
+        width = ancho
+        height = alto
+        title = texto al pasar el ratón
+    -->
+
+    <img id="imagen"
+         src="foto.jpg"
+         alt="Imagen de ejemplo"
+         width="300"
+         title="Imagen">
+
+
+    <br><br>
+
+
+    <!-- ================================================== -->
+    <!-- 9. ENLACES -->
+    <!-- ================================================== -->
+
+    <h2>Enlaces</h2>
+
+    <!-- Enlace externo -->
+
+    <a href="https://www.google.com">
+        Ir a Google
+    </a>
+
+
+    <br><br>
+
+
+    <!-- Enlace a otra página -->
+
+    <a href="contacto.html">
+        Ir a contacto
+    </a>
+
+
+    <br><br>
+
+
+    <!--
+        Enlace para abrir en otra pestaña.
+
+        target="_blank"
+    -->
+
+    <a href="https://www.google.com"
+       target="_blank">
+
+        Abrir Google en otra pestaña
+
+    </a>
+
+
+    <br><br>
+
+
+    <!--
+        Enlace a una parte de la misma página.
+
+        href="#imagen"
+        busca id="imagen"
+    -->
+
+    <a href="#imagen">
+        Ir a la imagen
+    </a>
+
+
+    <hr>
+
+
+    <!-- ================================================== -->
+    <!-- 10. LISTA ORDENADA -->
+    <!-- ================================================== -->
+
+    <h2>Lista ordenada</h2>
+
+    <!--
+        ol = ordered list
+        li = elemento
+
+        start="5" empieza desde el número 5
+    -->
+
+    <ol start="5">
+
+        <li>Julio</li>
+        <li>Carmen</li>
+        <li>Elena</li>
+
+    </ol>
+
+
+    <!-- ================================================== -->
+    <!-- 11. LISTA NO ORDENADA -->
+    <!-- ================================================== -->
+
+    <h2>Lista no ordenada</h2>
+
+    <ul>
+
+        <li>Barcelona</li>
+        <li>Real Madrid</li>
+        <li>Atlético de Madrid</li>
+
+    </ul>
+
+
+    <!-- ================================================== -->
+    <!-- 12. LISTA DE DEFINICIÓN -->
+    <!-- ================================================== -->
+
+    <h2>Lista de definición</h2>
+
+    <!--
+        dl = lista de definición
+        dt = término
+        dd = definición
+    -->
+
+    <dl>
+
+        <dt>HTML</dt>
+        <dd>Lenguaje de marcado.</dd>
+
+        <dt>CSS</dt>
+        <dd>Lenguaje de estilos.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Lenguaje de programación.</dd>
+
+    </dl>
+
+
+    <!-- ================================================== -->
+    <!-- 13. LISTA ANIDADA -->
+    <!-- ================================================== -->
+
+    <h2>Lista anidada</h2>
+
+    <ul>
+
+        <li>
+            Carnívoro
+
+            <ul>
+                <li>León</li>
+                <li>Hiena</li>
+            </ul>
+
+        </li>
+
+
+        <li>
+            Herbívoro
+
+            <ul>
+                <li>Vaca</li>
+                <li>Cabra</li>
+            </ul>
+
+        </li>
+
+
+        <li>
+            Omnívoro
+
+            <ul>
+                <li>Oso</li>
+                <li>Urraca</li>
+            </ul>
+
+        </li>
+
+    </ul>
+
+
+    <hr>
+
+
+    <!-- ================================================== -->
+    <!-- 14. TABLAS -->
+    <!-- ================================================== -->
+
+    <h2>Tabla</h2>
+
+    <!--
+        table   = tabla
+        caption = título de tabla
+        tr      = fila
+        th      = encabezado
+        td      = celda
+    -->
+
+    <table border="1">
+
+        <caption>Factura</caption>
+
+
+        <!-- Encabezado -->
+
+        <tr>
+
+            <th>Producto</th>
+            <th>Precio</th>
+
+        </tr>
+
+
+        <!-- Fila -->
+
+        <tr>
+
+            <td>Zapatillas</td>
+            <td>35€</td>
+
+        </tr>
+
+
+        <tr>
+
+            <td>Camiseta</td>
+            <td>15€</td>
+
+        </tr>
+
+
+        <tr>
+
+            <th>Total</th>
+            <th>50€</th>
+
+        </tr>
+
+    </table>
+
+
+    <br><br>
+
+
+    <!-- ================================================== -->
+    <!-- 15. TABLAS COMBINADAS -->
+    <!-- ================================================== -->
+
+    <h2>Tabla con celdas combinadas</h2>
+
+    <!--
+        colspan = combina columnas
+
+        rowspan = combina filas
+    -->
+
+    <table border="1">
+
+        <tr>
+
+            <th colspan="2">
+                Producto
+            </th>
+
+        </tr>
+
+        <tr>
+
+            <td>Zapatillas</td>
+            <td>35€</td>
+
+        </tr>
+
+        <tr>
+
+            <td rowspan="2">
+                Ropa
+            </td>
+
+            <td>Camiseta</td>
+
+        </tr>
+
+        <tr>
+
+            <td>15€</td>
+
+        </tr>
+
+    </table>
+
+
+    <hr>
+
+
+    <!-- ================================================== -->
+    <!-- 16. FORMULARIOS -->
+    <!-- ================================================== -->
+
+    <h2>Formulario</h2>
+
+    <!--
+        form = formulario
+
+        method:
+        GET  = datos en la URL
+        POST = datos enviados en la petición
+
+        action = lugar al que se envían los datos
+    -->
+
+    <form action="procesar.php"
+          method="post">
+
+
+        <!-- ============================================== -->
+        <!-- TEXT -->
+        <!-- ============================================== -->
+
+        <label for="nombre">
+            Nombre:
+        </label>
+
+        <input type="text"
+               id="nombre"
+               name="nombre">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- PASSWORD -->
+        <!-- ============================================== -->
+
+        <label for="password">
+            Contraseña:
+        </label>
+
+        <input type="password"
+               id="password"
+               name="password">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- EMAIL -->
+        <!-- ============================================== -->
+
+        <label for="email">
+            Email:
+        </label>
+
+        <input type="email"
+               id="email"
+               name="email">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- URL -->
+        <!-- ============================================== -->
+
+        <label for="url">
+            URL:
+        </label>
+
+        <input type="url"
+               id="url"
+               name="url">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- FECHA -->
+        <!-- ============================================== -->
+
+        <label for="fecha">
+            Fecha:
+        </label>
+
+        <input type="date"
+               id="fecha"
+               name="fecha">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- HORA -->
+        <!-- ============================================== -->
+
+        <label for="hora">
+            Hora:
+        </label>
+
+        <input type="time"
+               id="hora"
+               name="hora">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- FECHA + HORA -->
+        <!-- ============================================== -->
+
+        <label for="fechaHora">
+            Fecha y hora:
+        </label>
+
+        <input type="datetime-local"
+               id="fechaHora"
+               name="fechaHora">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- NÚMERO -->
+        <!-- ============================================== -->
+
+        <label for="numero">
+            Número:
+        </label>
+
+        <input type="number"
+               id="numero"
+               name="numero"
+               min="0"
+               max="100">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- RANGE -->
+        <!-- ============================================== -->
+
+        <label for="rango">
+            Rango:
+        </label>
+
+        <input type="range"
+               id="rango"
+               name="rango"
+               min="0"
+               max="100"
+               value="50">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- COLOR -->
+        <!-- ============================================== -->
+
+        <label for="color">
+            Color:
+        </label>
+
+        <input type="color"
+               id="color"
+               name="color"
+               value="#FF0000">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- CHECKBOX -->
+        <!-- ============================================== -->
+
+        <h3>Checkbox</h3>
+
+        <!--
+            Checkbox permite seleccionar
+            varias opciones.
+        -->
+
+        <input type="checkbox"
+               id="op1"
+               name="opcion1"
+               value="1">
+
+        <label for="op1">
+            Opción 1
+        </label>
+
+
+        <input type="checkbox"
+               id="op2"
+               name="opcion2"
+               value="2"
+               checked>
+
+        <label for="op2">
+            Opción 2
+        </label>
+
+
+        <input type="checkbox"
+               id="op3"
+               name="opcion3"
+               value="3">
+
+        <label for="op3">
+            Opción 3
+        </label>
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- RADIO -->
+        <!-- ============================================== -->
+
+        <h3>Radio</h3>
+
+        <!--
+            Los radio del mismo grupo
+            tienen el mismo NAME.
+
+            Solo uno puede estar seleccionado.
+        -->
+
+        <input type="radio"
+               id="radio1"
+               name="opciones"
+               value="1"
+               checked>
+
+        <label for="radio1">
+            Opción 1
+        </label>
+
+
+        <input type="radio"
+               id="radio2"
+               name="opciones"
+               value="2">
+
+        <label for="radio2">
+            Opción 2
+        </label>
+
+
+        <input type="radio"
+               id="radio3"
+               name="opciones"
+               value="3">
+
+        <label for="radio3">
+            Opción 3
+        </label>
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- SELECT -->
+        <!-- ============================================== -->
+
+        <h3>Select</h3>
+
+        <!--
+            select = lista desplegable
+            option = opción
+            selected = opción seleccionada inicialmente
+        -->
+
+        <label for="ciudad">
+            Ciudad:
+        </label>
+
+        <select id="ciudad"
+                name="ciudad">
+
+            <option value="malaga">
+                Málaga
+            </option>
+
+            <option value="granada" selected>
+                Granada
+            </option>
+
+            <option value="sevilla">
+                Sevilla
+            </option>
+
+        </select>
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- TEXTAREA -->
+        <!-- ============================================== -->
+
+        <label for="comentario">
+            Comentario:
+        </label>
+
+        <br>
+
+        <textarea id="comentario"
+                  name="comentario"
+                  rows="5"
+                  cols="30">
+        </textarea>
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- FILE -->
+        <!-- ============================================== -->
+
+        <label for="archivo">
+            Archivo:
+        </label>
+
+        <input type="file"
+               id="archivo"
+               name="archivo">
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- HIDDEN -->
+        <!-- ============================================== -->
+
+        <!--
+            hidden = dato que no se muestra
+            visualmente al usuario.
+        -->
+
+        <input type="hidden"
+               name="id"
+               value="123">
+
+
+        <!-- ============================================== -->
+        <!-- PROGRESS -->
+        <!-- ============================================== -->
+
+        <h3>Progress</h3>
+
+        <progress max="100"
+                  value="60">
+        </progress>
+
+
+        <br><br>
+
+
+        <!-- ============================================== -->
+        <!-- BOTONES -->
+        <!-- ============================================== -->
+
+        <!-- Enviar formulario -->
+
+        <button type="submit">
+            Enviar
+        </button>
+
+
+        <!-- Restablecer formulario -->
+
+        <button type="reset">
+            Borrar
+        </button>
+
+
+        <!-- Botón normal -->
+
+        <button type="button">
+            Botón normal
+        </button>
+
+
+        <!-- Botón con JavaScript -->
+
+        <button type="button"
+                onclick="alert('Hola mundo')">
+
+            Hola mundo
+
+        </button>
+
+
+    </form>
+
+
+    <hr>
+
+
+    <!-- ================================================== -->
+    <!-- 17. ATRIBUTOS IMPORTANTES -->
+    <!-- ================================================== -->
+
+    <h2>Atributos importantes</h2>
+
+    <!--
+        id
+        Identifica un elemento.
+    -->
+
+    <p id="ejemplo">
+        Ejemplo de ID.
+    </p>
+
+
+    <!--
+        class
+        Sirve para agrupar elementos.
+        Se utiliza mucho con CSS y JavaScript.
+    -->
+
+    <p class="texto">
+        Ejemplo de class.
+    </p>
+
+
+    <!--
+        title
+        Muestra información al pasar el ratón.
+    -->
+
+    <p title="Información adicional">
+        Pasa el ratón por encima.
+    </p>
+
+
+    <!--
+        hidden
+        Oculta el elemento.
+    -->
+
+    <p hidden>
+        Este texto está oculto.
+    </p>
+
+
+    <!--
+        disabled
+        Desactiva un elemento.
+    -->
+
+    <button disabled>
+        Botón desactivado
+    </button>
+
+
+    <!--
+        readonly
+        El usuario puede ver el dato
+        pero no modificarlo.
+    -->
+
+    <input type="text"
+           value="No modificar"
+           readonly>
+
+
+    <br><br>
+
+
+    <!--
+        required
+        Hace que el campo sea obligatorio.
+    -->
+
+    <input type="text"
+           name="obligatorio"
+           required>
+
+
+    <br><br>
+
+
+    <!-- ================================================== -->
+    <!-- 18. VALIDACIÓN BÁSICA -->
+    <!-- ================================================== -->
+
+    <h2>Validación de formularios</h2>
+
+    <!-- Campo obligatorio -->
+
+    <label for="usuario">
+        Usuario:
+    </label>
+
+    <input type="text"
+           id="usuario"
+           name="usuario"
+           required>
+
+
+    <br><br>
+
+
+    <!-- Número con mínimo y máximo -->
+
+    <label for="edad">
+        Edad:
+    </label>
+
+    <input type="number"
+           id="edad"
+           name="edad"
+           min="18"
+           max="100">
+
+
+    <br><br>
+
+
+    <!-- Longitud mínima -->
+
+    <label for="nombre2">
+        Nombre:
+    </label>
+
+    <input type="text"
+           id="nombre2"
+           name="nombre2"
+           minlength="3"
+           maxlength="20">
+
+
+    <br><br>
+
+
+    <!-- Placeholder -->
+
+    <label for="busqueda">
+        Buscar:
+    </label>
+
+    <input type="text"
+           id="busqueda"
+           name="busqueda"
+           placeholder="Escribe aquí">
+
+
+    <hr>
+
+
+    <!-- ================================================== -->
+    <!-- 19. ESTRUCTURA SEMÁNTICA -->
+    <!-- ================================================== -->
+
+    <h2>HTML semántico</h2>
+
+    <!--
+        Estas etiquetas indican qué función
+        tiene cada parte de la página.
+    -->
+
+
+    <header>
+
+        <h2>Cabecera</h2>
+
+    </header>
+
+
+    <nav>
+
+        <a href="#">Inicio</a>
+        <a href="#">Contacto</a>
+
+    </nav>
+
+
+    <main>
+
+        <section>
+
+            <h3>Sección</h3>
+
+            <p>
+                Contenido de la sección.
+            </p>
+
+        </section>
+
+
+        <article>
+
+            <h3>Artículo</h3>
+
+            <p>
+                Contenido independiente.
+            </p>
+
+        </article>
+
+    </main>
+
+
+    <aside>
+
+        <p>
+            Contenido secundario.
+        </p>
+
+    </aside>
+
+
+    <footer>
+
+        <p>
+            Pie de página.
+        </p>
+
+    </footer>
+
+
+    <hr>
+
+
+    <!-- ================================================== -->
+    <!-- 20. MULTIMEDIA -->
+    <!-- ================================================== -->
+
+    <h2>Multimedia</h2>
+
+
+    <!-- AUDIO -->
+
+    <audio controls>
+
+        <source src="audio.mp3"
+                type="audio/mpeg">
+
+        Tu navegador no soporta audio.
+
+    </audio>
+
+
+    <br><br>
+
+
+    <!-- VIDEO -->
+
+    <video width="400"
+           controls>
+
+        <source src="video.mp4"
+                type="video/mp4">
+
+        Tu navegador no soporta vídeo.
+
+    </video>
+
+
+    <hr>
+
+
+    <!-- ================================================== -->
+    <!-- 21. COMENTARIOS -->
+    <!-- ================================================== -->
+
+    <!--
+        Los comentarios no aparecen en la página.
+
+        Se escriben:
+
+        <!-- comentario -->
+
+        Sirven para explicar el código.
+    -->
+
+
+    <!-- ================================================== -->
+    <!-- 22. RESUMEN FINAL -->
+    <!-- ================================================== -->
+
+    <h2>CHULETA FINAL</h2>
+
+    <!--
+
+    ESTRUCTURA:
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <body>
+
+
+    TEXTO:
+
+    h1 - h6  = títulos
+    p         = párrafo
+    br        = salto
+    hr        = línea
+    b         = negrita
+    strong    = importante
+    i         = cursiva
+    em        = énfasis
+    u         = subrayado
+    mark      = resaltado
+    small     = pequeño
+    sub       = subíndice
+    sup       = superíndice
+
+
+    AGRUPACIÓN:
+
+    div       = bloque/grupo
+    span      = parte pequeña de contenido
+
+
+    IMAGEN:
+
+    img
+    src
+    alt
+    width
+    height
+    title
+
+
+    ENLACES:
+
+    a
+    href
+    target
+
+
+    LISTAS:
+
+    ol        = ordenada
+    ul        = no ordenada
+    li        = elemento
+    dl        = definición
+    dt        = término
+    dd        = definición
+
+
+    TABLAS:
+
+    table     = tabla
+    caption   = título
+    tr        = fila
+    th        = encabezado
+    td        = celda
+    colspan   = combinar columnas
+    rowspan   = combinar filas
+
+
+    FORMULARIOS:
+
+    form
+    label
+    input
+    select
+    option
+    textarea
+    button
+    progress
+
+
+    INPUTS:
+
+    text
+    password
+    email
+    url
+    date
+    time
+    datetime-local
+    number
+    range
+    color
+    checkbox
+    radio
+    file
+    hidden
+
+
+    BOTONES:
+
+    submit   = enviar
+    reset    = borrar/restablecer
+    button   = botón normal
+
+
+    ATRIBUTOS:
+
+    id
+    class
+    name
+    value
+    for
+    src
+    href
+    alt
+    title
+    width
+    height
+    min
+    max
+    checked
+    selected
+    required
+    readonly
+    disabled
+    placeholder
+    minlength
+    maxlength
+
+
+    RADIO:
+
+    Mismo name = mismo grupo
+    Solo una opción
+
+
+    CHECKBOX:
+
+    Permite varias opciones
+
+
+    LABEL:
+
+    for = id
+
+
+    -->
+
+</body>
+
+</html>
