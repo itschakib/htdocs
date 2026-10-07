@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+
+<body>
+    <h1>Curso de Especialización en Inteligencia Aritificial y Big Data</h1>
+
+    <form method="post">
+        <fieldset>
+      
+
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" name="Apellido" id="Apellido">
+            <br><br>
+
+            <label for="DNI">DNI:</label>
+            <input type="text" name="DNI" id="DNI">
+            <br><br>
+
+
+            <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fecha" id="fecha">
+            <br><br>
+
+            <label for="correo electrónico">correo electrónico:</label>
+            <input type="email" name="correo" id="correo">
+            <br><br>
+
+            <label for="Descripción">Descripción:</label>
+            <input type="text" name="Descripción" id="Descripción" >
+            <br><br>
+
+        </fieldset>
+        <fieldset>
+
+            <label for="Titulacion">Titulacion <select>
+                    <option value="DAW" selected>Desarrollo de aplicaciones web</option>
+                    <option value="DAM">Desarrollo de aplicaciones Multiplataforma</option>
+                    <option value="asir">Administración de sistemas Informaticos en Red</option>
+                </select>
+            </label>
+            <br><br>
+
+            <label for="date">Año de finalizacion</label>
+            <input type="number" name="date" id="date" min="1980" max="2026">
+            <br><br>
+
+            <label for="number">Nota</label>
+            <input type="number" name="date" id="date" min="0" max="10">
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+
+            <input id="opt1" type="checkbox" name="opciones" value="1">
+            <label for="JAVA">JAVA</label><br>
+
+            <input id="opt2" type="checkbox" name="opciones" value="2">
+            <label for="Python">Python</label><br>
+
+            <input id="opt3" type="checkbox" name="opciones" value="3">
+            <label for="JavaScript">JavaScript</label><br>
+
+            <input id="opt3" type="checkbox" name="opciones" value="4">
+            <label for="SQL">SQL</label>
+        </fieldset>
+        <fieldset>
+
+            <input id="opt1" type="radio" name="opciones" value="1">
+            <label for="Basico">Basico</label><br>
+
+            <input id="opt2" type="radio" name="opciones" value="2">
+            <label for="Intermedio">Intermedio</label><br>
+
+            <input id="opt3" type="radio" name="opciones" value="3">
+            <label for="Avanzado">Avanzado</label><br>
+        </fieldset>
+
+        <fieldset>
+
+            <label for="rango">horas semanales disponibles : </label>
+            <input type="range" name="horas" id="rango" min="4" max="50" value="30">
+            <br><br>
+
+            <label for="color">color de perfil: </label>
+            <input type="color" name="color" id="color">
+            <br><br>
+
+
+        </fieldset>
+
+        <fieldset>
+
+            <label for="Carta">Carta de motivacion:</label>
+            <input type="text" name="Carta" id="Carta">
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <input id="opt1" type="checkbox" name="opciones" value="1">
+            <label for="condiciones">Acepto las condiciones</label><br>
+
+            <input id="opt2" type="checkbox" name="opciones" value="2">
+            <label for="autorizacion">Autrorizo el tratamiento de mis datos</label><br>
+        </fieldset>
+
+        <h2>Estado de la solicitud</h2>
+        <progress max="100" value="80"></progress>
+        <br>
+        <button type="submit">Enviar solicitud</button>
+        <button type="reset">Borrar solicitud</button>
+
+
+        <br>
+
+    </form>
+</body>
+
+</html>
