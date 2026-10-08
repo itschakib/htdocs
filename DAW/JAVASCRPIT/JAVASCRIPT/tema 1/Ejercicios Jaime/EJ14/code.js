@@ -1,7 +1,7 @@
 function sumaMayor(numeros) {
     let mayor =-Infinity;
 
-    for (let i = 1; i < numeros.length - 1; i++) {
+    for (let i = 0; i < numeros.length - 1; i++) {
         let suma = numeros[i] + numeros[i + 1];
 
         if (suma > mayor) mayor = suma;

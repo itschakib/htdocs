@@ -14,7 +14,7 @@ function Array1(numeros, numero) {
   for (let i = 0; i < numeros.length; i++) {
     if (numero == numeros[i]) {
       contador++;
-      if (contador == 0) primeroPosicion = i;
+      if (contador == 1) primeroPosicion = i;
     }
   }
 
@@ -154,4 +154,4 @@ console.log(multiceros(matriz0, lista0));
 
 //EJERCICIO 5
 /*function que recibe una matriz de numeros de cualquier tamaño y un array de coordenadas * ( no tiene por que ser del mismo tamaño que la matriz)
-una coordena son DOS valores, luego los elementos de ese array seran arrays de dos valores . PEJ : LET pos =[[1,2],[0,3],[2,2],[3,1]]
+una coordena son DOS valores, luego los elementos de ese array seran arrays de dos valores . PEJ : LET pos =[[1,2],[0,3],[2,2],[3,1]]*/
