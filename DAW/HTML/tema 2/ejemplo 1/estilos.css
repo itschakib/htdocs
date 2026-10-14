@@ -1,0 +1,32 @@
+html{
+    font-size:30px;/*fuente raiz*/
+}
+div {
+    margin: 15px;
+    padding: 10 px;
+    border: 1px solid black;
+}
+
+.absoluta {
+    width: 900px;
+}
+
+.contenedor {
+    width: 70%;
+}
+
+.porcentaje {
+    width: 50%;
+}
+
+.padre {
+    font-size: 20px;
+}
+
+.relativePadre {
+    font-size: 2em;
+}
+
+.relativaRaiz{
+    font-size: 2rem;
+}

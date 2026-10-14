@@ -1,0 +1,23 @@
+#p1 {
+    text-align: right;
+    text-decoration: underline solid blue;
+    word-spacing: 1.25rem; /*20/16*/
+}
+#p2 {
+    text-align: left;
+    text-decoration: overline black dashed;
+    letter-spacing: 10px;
+}
+#p3 {
+    text-transform: capitalize;
+}
+h1 {
+font-variant: small-caps; 
+}
+#palabra1{
+    font-weight: bold; /*700*/
+    font-style: italic;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+

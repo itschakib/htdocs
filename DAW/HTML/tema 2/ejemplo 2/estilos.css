@@ -1,0 +1,12 @@
+/** {
+    height: 100%;
+}*/
+
+
+.caja {
+    width:50vw;
+    height:80vh;
+    background-color: aqua;
+    border: 1px solid black;
+    border:1px solid black;
+}

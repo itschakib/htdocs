@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+
+<body>
+    <h1>Curso de Especialización en Inteligencia Aritificial y Big Data</h1>
+
+
+    <!-- CORREGIDO: faltaba action="#" -->
+    <form method="post" action="#">
+        <fieldset>
+            <!-- CORREGIDO: faltaba legend -->
+            <legend>Datos personales</legend>
+
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" name="Apellido" id="Apellido">
+            <br><br>
+
+            <label for="DNI">DNI:</label>
+            <input type="text" name="DNI" id="DNI">
+            <br><br>
+
+
+
+            <!-- CORREGIDO: name="nacimiento" -->
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+            <br><br>
+
+            <label for="correo electrónico">correo electrónico:</label>
+            <input type="email" name="correo" id="correo">
+            <br><br>
+
+            <!-- CORREGIDO: usar textarea para la dirección -->
+            <label for="direccion">Dirección:</label>
+            <textarea name="direccion" id="direccion" rows="3" cols="50"></textarea>
+            <br><br>
+            <!--<label for="Descripción">Descripción:</label>
+            <input type="text" name="Descripción" id="Descripción" >
+            <br><br>-->
+
+        </fieldset>
+        <fieldset>
+            <legend>Datos académicos</legend>
+            <!-- CORREGIDO: el select necesita name e id -->
+            <label for="Titulacion">Titulacion
+                <select name="titulacion" id="titulacion">
+                    <option value="DAW" selected>Desarrollo de aplicaciones web</option>
+                    <option value="DAM">Desarrollo de aplicaciones Multiplataforma</option>
+                    <option value="asir">Administración de sistemas Informaticos en Red</option>
+                </select>
+            </label>
+            <br><br>
+
+            <label for="finalizacion">Año de finalizacion</label>
+            <input type="number" name="finalizacion" id="finalizacion" min="1980" max="2026">
+            <br><br>
+
+            <label for="nota">Nota</label>
+            <input type="number" name="nota" id="nota" min="0" max="10" step="0.1">
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Conocimientos de programación</legend>
+            <!-- CORREGIDO: name común y values correctos -->
+            <input type="checkbox" name="conocimientos" id="java" value="java">
+            <label for="java">Java</label>
+            <br>
+
+            <input type="checkbox" name="conocimientos" id="python" value="python">
+            <label for="python">Python</label>
+            <br>
+
+            <input type="checkbox" name="conocimientos" id="javascript" value="javascript">
+            <label for="javascript">JavaScript</label>
+            <br>
+
+
+            <input type="checkbox" name="conocimientos" id="sql" value="sql">
+            <label for="sql">SQL</label>
+        </fieldset>
+        <fieldset>
+            <legend>Nivel de conocimientos</legend>
+            <!-- CORREGIDO: name="nivel" y cada id es único -->
+            <input type="radio" name="nivel" id="basico" value="basico">
+            <label for="basico">Básico</label>
+            <br>
+
+            <input type="radio" name="nivel" id="intermedio" value="intermedio">
+            <label for="intermedio">Intermedio</label>
+            <br>
+
+            <input type="radio" name="nivel" id="avanzado" value="avanzado">
+            <label for="avanzado">Avanzado</label>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferencias</legend>
+            <label for="rango">horas semanales disponibles : </label>
+            <input type="range" name="horas" id="rango" min="4" max="50" value="30">
+            <br><br>
+
+            <label for="color">color de perfil: </label>
+            <input type="color" name="color" id="color">
+            <br><br>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Carta de motivación</legend>
+            <label for="Carta">Carta de motivacion:</label>
+            <br><br>
+            <textarea name="carta" id="carta" rows="5" cols="50"></textarea>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Consentimiento</legend>
+
+            <!-- CORREGIDO: name propio y required -->
+            <input type="checkbox" name="condiciones" id="condiciones" value="acepto" required>
+            <label for="condiciones">Acepto las condiciones</label>
+            <br>
+
+            <input type="checkbox" name="tratamiento" id="tratamiento" value="acepto" required>
+            <label for="tratamiento">Autorizo el tratamiento de mis datos</label>
+            <br>
+
+        </fieldset>
+        <h2>Estado de la solicitud</h2>
+        <progress max="100" value="80"></progress>
+        <br>
+        <button type="submit">Enviar solicitud</button>
+        <button type="reset">Borrar solicitud</button>
+
+
+        <br>
+
+    </form>
+</body>
+
+</html>

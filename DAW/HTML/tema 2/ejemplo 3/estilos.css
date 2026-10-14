@@ -1,0 +1,30 @@
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: blue;
+}
+
+ul li:nth-child(3) {
+    color: green;
+}
+
+ol li:nth-child(odd) {
+    color: chocolate;
+}
+
+ol li:nth-child(even) {
+    color: aqua;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+button:active {
+    background-color: chocolate;
+}
+input:focus {
+    background-color: grey;
+}
