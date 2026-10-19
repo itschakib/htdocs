@@ -1,0 +1,21 @@
+table {
+    border: 2px solid blue;
+    border-collapse: separate;
+    border-spacing: 15px;
+    caption-side: bottom;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid blue;
+    text-align: center;
+    height: 60px;
+    vertical-align: top;
+    empty-cells: hide;
+}
+
+tr td:nth-child(2) {
+    text-align: left;
+
+}

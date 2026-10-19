@@ -1,0 +1,17 @@
+.caja {
+    border: 3px solid chocolate;
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: aqua;
+
+   /* border-radius: 40px; /*afecta a todas */
+   /* border-radius: 40px 40px 10px 10px;*/
+   border-radius: 10px 40px;
+   /*5px opcacity*/
+   box-shadow: 10px 10px 5px gray;
+   column-count: 2;
+   column-rule: 1px solid black;
+   text-shadow: 2px 2px gray;
+}
