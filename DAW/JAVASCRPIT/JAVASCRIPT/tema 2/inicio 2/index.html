@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica DOM - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" defer></script>
+</head>
+
+<body>
+    <main class="contenedor">
+        <h1 id="titulo">Práctica del DOM</h1>
+        <p class="texto">Este párrafo sirve para practicar los selectores y el contenido.</p>
+        <p class="texto">Este es el segundo párrafo.</p>
+
+        <section class="panel">
+            <h2>1. Cambiar estilos</h2>
+            <button id="btn-tamano">Cambiar tamaño</button>
+            <button id="btn-color">Cambiar color</button>
+            <button id="btn-leer-estilo">Leer estilo calculado</button>
+            <p id="resultado-estilo">Aquí aparecerá el resultado.</p>
+        </section>
+
+        <section class="panel">
+            <h2>2. Trabajar con clases</h2>
+            <p id="mensaje" class="normal">Este texto tiene la clase normal.</p>
+            <button id="btn-clase">Alternar clase</button>
+        </section>
+
+        <section class="panel">
+            <h2>3. Contenido y atributos</h2>
+            <p id="contenido">Texto original del párrafo.</p>
+            <button id="btn-texto">Cambiar texto</button>
+            <button id="btn-atributo">Cambiar atributo title</button>
+        </section>
+
+        <section class="panel">
+            <h2>4. Crear y eliminar elementos</h2>
+            <input type="text" id="entrada" placeholder="Escribe un elemento de la lista">
+            <button id="btn-anadir">Añadir a la lista</button>
+            <button id="btn-eliminar">Eliminar último elemento</button>
+            <ul id="lista">
+                <li>Primer elemento</li>
+            </ul>
+        </section>
+
+        <section class="panel">
+            <h2>5. Selectores</h2>
+            <button id="btn-selectores">Contar párrafos .texto</button>
+            <p id="resultado-selectores">Aquí aparecerá el resultado.</p>
+        </section>
+    </main>
+</body>
+
+</html>

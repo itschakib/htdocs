@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 24px;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #174a7e;
+}
+
+.panel {
+    background-color: white;
+    padding: 16px;
+    margin: 16px 0;
+    border: 1px solid #d5dce3;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+}
+
+.normal {
+    color: #333;
+    background-color: #eee;
+    padding: 8px;
+}
+
+.destacado {
+    color: #174a7e;
+    background-color: #dceeff;
+    font-weight: bold;
+    border: 2px solid #174a7e;
+    padding: 8px;
+}
