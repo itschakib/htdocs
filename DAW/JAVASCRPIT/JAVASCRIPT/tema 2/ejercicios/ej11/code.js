@@ -14,7 +14,7 @@ function inicializador() {
   div3.style.width = "300px";
   div3.style.height = "100px";
   div3.style.backgroundColor = "green";
-
+/*
   div2.style.visibility = "hidden";
 
   // mostrarlo  el segundo div solo al pasar el raton por el primero
@@ -26,6 +26,8 @@ function inicializador() {
   div1.onmouseout = function () {
     div2.style.visibility = "hidden";
   };
+*/
+
 
   // ocultar el segundo div
   div2.style.display = "none";
