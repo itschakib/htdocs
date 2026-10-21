@@ -1,0 +1,36 @@
+body {
+    font-family: "Arial";
+}
+
+/*Estilos cuando se visualiza en pantalla*/
+@media screen {
+    body {
+        background-color: lightblue;
+    }
+
+    h1 {
+        color: darkblue;
+    }
+
+    nav {
+        background-color: navy;
+        color: white;
+        padding: 15px;
+    }
+}
+
+/* para impresion*/
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    h1 {
+        color: black
+    }
+
+    nav {
+        display: black;
+    }
+}
