@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33258928-0B44-F7E2-8F84-556B3A453404" name="AUTOR">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>E8EB34FC-DA9E-3306-F224-44B427D55834</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="C6B9430F-EB17-3EEE-FB44-93B50DC9129B">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>C5DB31F3-F073-E94E-8FF5-F8A0E2FF0542</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="posicion" id="31781E17-5CB8-AE4D-91C3-BB2DFF4DD6BC">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>4645C96A-DAF7-99E6-5814-127E6B4C9BA4</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="290AA359-9259-D422-5AA0-7E2A7171564F">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>FE4979AF-BAB7-D9D6-ABB3-FFFCF90B0C0C</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9B6B15E-B1CD-3EAE-3487-1F5CA47069FB" name="AUTOR_PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>F7634A0C-B4C7-E1E5-C429-193AE273B7D4</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6B9430F-EB17-3EEE-FB44-93B50DC9129B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

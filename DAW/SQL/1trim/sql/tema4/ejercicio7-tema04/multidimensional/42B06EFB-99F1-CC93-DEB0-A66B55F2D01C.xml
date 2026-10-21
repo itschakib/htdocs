@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="Multidimensional_1" id="42B06EFB-99F1-CC93-DEB0-A66B55F2D01C" mainViewID="3AD3B0A0-8CFC-0355-7F57-E28A39589D4E" boundModel="1D9E95CE-B69E-125D-3FAB-8791301D7619">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:30:02 UTC</createdTime>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7FD5ABE-FD4E-5014-702B-4C9E19D122B6" name="REVISTA">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>F1BAA9AB-1404-64F1-1F9E-66673D200DC4</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="issn" id="5279A127-FFA1-91E6-75D6-F476DC00CE5B">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>E030C849-8EC6-BA69-3999-CE42BE8460D8</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="año" id="A4AFBB56-9600-2AD8-151B-4AB45B754C7A">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>9307D304-A5B8-F374-5C8C-0C863F0BF88E</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="55D8FA97-93B0-3DB5-3615-594017D7C5AD">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>E5375FD3-30C9-8947-34FE-7CBCA4D9DE9C</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E5FAE25-3CCD-F9BB-28F8-0A512938D8DA" name="REVISTA_PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>3ABF44B5-FED2-FCEC-AB5B-B5D9F28315A6</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5279A127-FFA1-91E6-75D6-F476DC00CE5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

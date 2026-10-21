@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8CC5D6F-F73A-102E-C02D-FA9FE3391945" name="CLIENTES">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:34:07 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="9CFCE547-6F99-E5A2-0826-9F67A0DAB726">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:34:55 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="84EB7242-978A-F0F3-B2FD-155A919966EC">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:35:11 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni" id="0612A50E-82F4-E6BA-7802-836CEA256011">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:35:28 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dirección" id="D3DE563A-482A-927F-925A-F064827C1881">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:35:48 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechadenacimiento" id="62451540-549A-0DB3-09C2-2497C3B8EA63">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:36:12 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26F67DD9-A5AD-27CB-1087-8F36C832D861" name="CLIENTES PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:35:31 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0612A50E-82F4-E6BA-7802-836CEA256011</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

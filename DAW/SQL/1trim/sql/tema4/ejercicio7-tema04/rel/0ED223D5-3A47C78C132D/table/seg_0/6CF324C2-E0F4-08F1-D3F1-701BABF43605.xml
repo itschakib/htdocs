@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CF324C2-E0F4-08F1-D3F1-701BABF43605" name="ATRICULO">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>7A76FE22-2780-18C6-5372-FFDE0F3A152A</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="titulo" id="32A47190-690C-25A3-EC6B-AD436F976E13">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>EEFA7F22-B37E-D893-BFAA-C7C84DE27BE8</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pinicio" id="B6A1AAD8-ACF5-D67D-2EED-7C2BDB3D31C2">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>0E8AF0F7-AF1D-AE6E-DA84-96921CD86796</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pfin" id="AED0F89A-CBED-6407-833B-AC37452679BA">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>5BF74848-D3AB-9D3C-0891-C26321C541F1</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REVISTA_issn" id="F3E3075A-53B2-6659-A4E9-F23AAED288FA">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>34BE15DA-01E3-CFDB-9740-B76EEF10AA61</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBD1C99E-B102-B25D-D826-99F7AA745580" referredColumn="5279A127-FFA1-91E6-75D6-F476DC00CE5B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C1CC36D-0756-0E31-74BD-D76621C7A51E" name="ATRICULO_PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>BF28AE19-E757-A5CD-BCCC-6848DC445293</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32A47190-690C-25A3-EC6B-AD436F976E13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0300A332-309F-816A-0697-20EE490A0EE4" name="ATRICULO_REVISTA_FK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>3717AF59-F947-CE31-C997-10B8D9A99B81</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3E3075A-53B2-6659-A4E9-F23AAED288FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

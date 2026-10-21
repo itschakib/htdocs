@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="DB7E0256-A216-B63D-1C3D-1B3B1A6B16E7" name="ASIGNATURAS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FC32AE1A-EBBE-D63F-A21A-56C7AF6DE4DB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="DC716230-62A2-8A2F-AF49-29EFB55F4B3C" name="PROFESOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FC32AE1A-EBBE-D63F-A21A-56C7AF6DE4DB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="E3F63FCB-E3EF-A56C-C70E-46E4C5CA1714" name="ASIGNATURAS_PROFESOR_FK" seqName="seg_0" containerID="DB7E0256-A216-B63D-1C3D-1B3B1A6B16E7" refContainerID="DC716230-62A2-8A2F-AF49-29EFB55F4B3C" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="FC32AE1A-EBBE-D63F-A21A-56C7AF6DE4DB" propertySourceId="DC716230-62A2-8A2F-AF49-29EFB55F4B3C" propertyTargetId="DB7E0256-A216-B63D-1C3D-1B3B1A6B16E7"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

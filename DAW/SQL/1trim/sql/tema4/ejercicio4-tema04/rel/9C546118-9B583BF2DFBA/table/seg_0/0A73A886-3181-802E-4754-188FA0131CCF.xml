@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A73A886-3181-802E-4754-188FA0131CCF" name="PIEZAS">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>123B298A-CB19-5D1B-4492-94D33F150DF8</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="049A7404-9BFD-7C41-D826-AE4E0B003A4B">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>78E733DD-E9AF-CD4A-4AD0-78BC75138466</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="796A9360-760C-A21F-CE7F-729C9C4E1496">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>8B90B8CB-251F-D721-3346-D8441D7B2A29</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="AADDE456-1C61-971A-370F-E6DA5D171B32">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>08CE5CF2-42A3-8BDC-E133-7E422389DFEE</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="CD9F361D-0104-8A59-8BDA-23C3AAA1586B">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>3459928F-EC36-B94A-44A0-A535BF3AA65A</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="805611BC-FFF0-5D13-7DFB-7E20E54A444A">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>CEEF7CD2-304D-A549-6C9B-9722968D6858</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proveedor_nif" id="B166BBD7-3300-6F57-6CEC-AFB7C63DAE10">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>54EA9245-2932-1303-C42A-6674FDCF2BD0</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25976C08-27A7-2A2A-E1E7-CEAC6399285C" referredColumn="63B68024-2769-24BE-2E88-65078CE24FD6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6366191E-1034-D00E-1077-0111590209D7" name="PIEZAS_PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>844EE730-C2A9-9E62-0C53-A8EA3D6B2F1A</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049A7404-9BFD-7C41-D826-AE4E0B003A4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B329BE4C-256F-75B8-557F-6CE5D40E624E" name="PIEZAS_proveedor_FK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>94D870D0-6329-25A9-05BD-38AF0ED9C00D</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B166BBD7-3300-6F57-6CEC-AFB7C63DAE10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

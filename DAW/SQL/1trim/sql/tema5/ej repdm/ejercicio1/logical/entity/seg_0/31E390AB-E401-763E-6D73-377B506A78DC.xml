@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31E390AB-E401-763E-6D73-377B506A78DC" name="PRODUCTO">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:37:25 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="163E8988-D98F-37B4-CCD9-0251D13649C1">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:37:38 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="0E33A401-3453-8B22-1B49-4CD90EAE8F7D">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:38:02 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precioUnitario" id="2076416D-AAD9-8A2B-6A85-CAD9E45124E2">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:38:23 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni" id="CACAA8E8-B89B-5771-1A09-4F2366911D2D">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:39:11 UTC</createdTime>
+<generatorID>914BBD00-C37B-6773-7352-E05C697866AE</generatorID>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<referedAttribute>0612A50E-82F4-E6BA-7802-836CEA256011</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nif" id="FB31D3E4-2961-F853-5318-A33D9DE71DF1">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:57:57 UTC</createdTime>
+<generatorID>FCE26F39-A2D7-A5DA-19CA-9E2F21A59585</generatorID>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<referedAttribute>E8F678B3-B176-4468-59C2-35169CEE8B73</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FC28675-0586-51FC-909F-8C1CC126AAB0" name="PRODUCTO PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:38:21 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E33A401-3453-8B22-1B49-4CD90EAE8F7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

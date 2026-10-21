@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F20FFB3-C820-8C78-1C5B-B934EFF68010" name="CAMIONES">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:30:59 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="12060AD8-3D2C-7902-05CE-779542DE3606">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:31:07 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="012C9A7E-5B01-69A9-C11D-CDAA73483EFC">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:31:20 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="9EDEDC1E-767D-1B0A-C597-E3967530C2B7">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:31:31 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="potencia" id="1A21E309-4ED3-978B-163C-CC5A7F38C034">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:31:37 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="705D0223-70A4-DC49-02BD-AC2CE1C04C09" name="CAMIONES PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:31:16 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12060AD8-3D2C-7902-05CE-779542DE3606</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBD1C99E-B102-B25D-D826-99F7AA745580" containerWithKeyObject="6CF324C2-E0F4-08F1-D3F1-701BABF43605" localFKIndex="0300A332-309F-816A-0697-20EE490A0EE4" name="ATRICULO_REVISTA_FK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>3717AF59-F947-CE31-C997-10B8D9A99B81</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<referredTableLongName>REVISTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7FD5ABE-FD4E-5014-702B-4C9E19D122B6</referredTableID>
+<keyObject>0E5FAE25-3CCD-F9BB-28F8-0A512938D8DA</keyObject>
+<referredKeyID>0E5FAE25-3CCD-F9BB-28F8-0A512938D8DA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>issn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

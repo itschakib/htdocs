@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tiene" directorySegmentName="seg_0" id="D44773AA-3C35-E1F0-B6F0-A68D0796D1AB">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:59:25 UTC</createdTime>
+<ownerDesignName>ejercicio3-tema04</ownerDesignName>
+<engineerTo>
+<item key="FC32AE1A-EBBE-D63F-A21A-56C7AF6DE4DB" value="true"/>
+</engineerTo>
+<sourcePk>839BEE38-3AA1-535A-92B3-3D03F4EAB391</sourcePk>
+<targetPk>CDD7EA06-841A-EFDB-EB74-1D87CDA67374</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B47F8548-1AD3-4B2D-4368-C4E2ED8CDC61</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F70790B5-B488-2811-85E5-EA5B05BA3413</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

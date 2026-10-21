@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC716230-62A2-8A2F-AF49-29EFB55F4B3C" name="PROFESOR">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:02:52 UTC</createdTime>
+<generatorID>F70790B5-B488-2811-85E5-EA5B05BA3413</generatorID>
+<ownerDesignName>ejercicio3-tema04</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dni" id="C2EDD0C4-6555-39F9-FF4A-A38EBFFB8BC2">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:02:52 UTC</createdTime>
+<generatorID>8B4ED6B9-CC0A-4160-01ED-53D86A07ED37</generatorID>
+<ownerDesignName>ejercicio3-tema04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="858A8596-3B25-8AE9-5DDA-E56827D56717">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:02:52 UTC</createdTime>
+<generatorID>233C47FA-D73E-DED7-9F21-486B4BAA5D5F</generatorID>
+<ownerDesignName>ejercicio3-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="decicacion" id="84D896C5-980B-ADB3-F860-C6A727EFA2F2">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:02:52 UTC</createdTime>
+<generatorID>C98120CC-6D05-C7C0-86E4-26F0DCDD0120</generatorID>
+<ownerDesignName>ejercicio3-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="70C92110-F3D0-D1DB-BA03-04D4E4F0F874">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:02:52 UTC</createdTime>
+<generatorID>893A0971-71DF-A5D9-8571-05BCE7511E13</generatorID>
+<ownerDesignName>ejercicio3-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C4EB034-B9BA-2D0B-8CF7-BB2246964662" name="PROFESOR_PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:02:52 UTC</createdTime>
+<generatorID>CDD7EA06-841A-EFDB-EB74-1D87CDA67374</generatorID>
+<ownerDesignName>ejercicio3-tema04</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2EDD0C4-6555-39F9-FF4A-A38EBFFB8BC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

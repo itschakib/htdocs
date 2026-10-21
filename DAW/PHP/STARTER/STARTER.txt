@@ -1,0 +1,58 @@
+HOW TO RUN A PHP PROJECT
+
+Open the project folder in VS Code.
+Open the VS Code Terminal.
+Make sure the terminal is inside the project folder.
+Start the PHP server:
+
+php -S localhost:8000
+
+Open the browser:
+
+http://localhost:8000
+
+To open a specific PHP file, use its path.
+
+Example:
+
+http://localhost:8000/1_Fundamentos/11_intro.php
+
+WHEN I MODIFY PHP
+
+Save the file in VS Code.
+
+Then refresh the browser.
+
+I normally do NOT need to restart the PHP server.
+
+WHEN I FINISH
+
+Press:
+
+Ctrl + C
+
+This stops the PHP server.
+
+IMPORTANT
+
+I do NOT need to start XAMPP/Apache every time I want to practice basic PHP.
+
+The PHP built-in server is enough:
+
+php -S localhost:8000
+
+XAMPP/Apache/MySQL can be used later when I need databases, phpMyAdmin, or want to practice the XAMPP method.
+
+QUICK COMMANDS
+
+Check PHP:
+
+php -v
+
+Start PHP server:
+
+php -S localhost:8000
+
+Stop server:
+
+Ctrl + C

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="puede suministrar" directorySegmentName="seg_0" id="FCE26F39-A2D7-A5DA-19CA-9E2F21A59585">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 08:57:57 UTC</createdTime>
+<ownerDesignName>ejercicio1</ownerDesignName>
+<engineerTo>
+<item key="D59C69F3-1285-F565-D3A8-5B4FBF793030" value="true"/>
+</engineerTo>
+<sourcePk>1AD4528D-2C41-4ED7-3435-E9D1FA9874FB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>970C850E-7473-20AD-96AC-099B0C2A9836</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31E390AB-E401-763E-6D73-377B506A78DC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

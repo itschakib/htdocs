@@ -1,0 +1,7 @@
+Field	Value
+Connection Name	CHAKIBOX
+Username	CHAKIBOX
+Password	chakibox
+Hostname	localhost
+Port	1521
+Service Name	XEPDB1

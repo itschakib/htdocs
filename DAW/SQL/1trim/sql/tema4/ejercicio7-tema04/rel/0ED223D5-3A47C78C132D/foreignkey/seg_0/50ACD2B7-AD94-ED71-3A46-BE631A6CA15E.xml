@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50ACD2B7-AD94-ED71-3A46-BE631A6CA15E" containerWithKeyObject="7909932E-E720-BCA6-CC5F-0EFE7352307A" localFKIndex="BD848B04-8210-8D2C-74CC-9EC93CC38449" name="escribe_ATRICULO_FK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:14:02 UTC</createdTime>
+<generatorID>9B36F4F7-D1AD-988E-D169-DDE911A16A80</generatorID>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<referredTableLongName>ATRICULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6CF324C2-E0F4-08F1-D3F1-701BABF43605</referredTableID>
+<keyObject>1C1CC36D-0756-0E31-74BD-D76621C7A51E</keyObject>
+<referredKeyID>1C1CC36D-0756-0E31-74BD-D76621C7A51E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>titulo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

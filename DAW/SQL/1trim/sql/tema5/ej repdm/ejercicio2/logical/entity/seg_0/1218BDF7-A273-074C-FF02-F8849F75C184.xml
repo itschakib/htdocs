@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1218BDF7-A273-074C-FF02-F8849F75C184" name="PAQUETES">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:13:52 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="7DF1C568-DF49-444E-2AF1-2109EBBAA513">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:14:03 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripción" id="6B093F97-D729-F454-2E35-5DAB0D4E2BDD">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:14:12 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="destinatario" id="9740D1AC-833E-D225-DDF0-B7F950F784E1">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:14:31 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dirección" id="792C5975-616F-62C6-F374-4FC377078290">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:14:44 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni" id="193308D8-F89A-9CB4-280D-88DE720A491E">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:16:57 UTC</createdTime>
+<generatorID>0F335202-0D56-2E27-20FB-735CCC2147E7</generatorID>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<referedAttribute>A01BBEEF-0AEF-DA54-BBB0-6222571717F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8123E56A-C8B2-63DE-56F2-953FA1132231" name="PAQUETES PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:14:07 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DF1C568-DF49-444E-2AF1-2109EBBAA513</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

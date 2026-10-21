@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECA18E0F-66A2-AA4D-E435-DD15B4F0BB1D" name="DEPARTAMENTO">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:41:52 UTC</createdTime>
+<generatorID>67D42F95-DCEC-22DB-F505-8827F71B1303</generatorID>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="0782B87C-67BA-7898-7A74-AB206E1849BD">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:41:52 UTC</createdTime>
+<generatorID>C42E8765-8527-1DA4-0434-BC12C823B330</generatorID>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="40750B79-DE3B-B54A-4B44-8AEDFB79F44D">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:41:52 UTC</createdTime>
+<generatorID>53519E58-CBA1-4B1B-8D66-512252B1A071</generatorID>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prespuesto" id="D793661F-CF2E-7056-B72F-AEAB0186E0FD">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:41:52 UTC</createdTime>
+<generatorID>03AFF437-4B4B-2915-CF1A-08AAE6F0D5FF</generatorID>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DA8E50C-D819-5DAF-3449-9AFDFD886966" name="DEPARTAMENTO_PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:41:52 UTC</createdTime>
+<generatorID>016663E8-CCF0-E830-A058-CD0F745345A8</generatorID>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0782B87C-67BA-7898-7A74-AB206E1849BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

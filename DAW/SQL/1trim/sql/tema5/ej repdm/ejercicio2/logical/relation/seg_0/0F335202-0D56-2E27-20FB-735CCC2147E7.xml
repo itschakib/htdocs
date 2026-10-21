@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="distribuye" directorySegmentName="seg_0" id="0F335202-0D56-2E27-20FB-735CCC2147E7">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:16:57 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<sourcePk>F566E7E6-D491-15B6-232D-5FFD0717B443</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6DC17F2-8908-DBA1-F3C7-8B412FDD9D45</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1218BDF7-A273-074C-FF02-F8849F75C184</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14188FC2-8985-276D-1E00-4A6776C10928" name="EMPLEADOS">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:38:30 UTC</createdTime>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<engineerTo>
+<item key="F1C9A3DF-B7A3-CDFA-803A-40A28AE54F6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero" id="9E949293-BEF9-8B6A-4797-111B7D65AA3A">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:38:41 UTC</createdTime>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<engineerTo>
+<item key="F1C9A3DF-B7A3-CDFA-803A-40A28AE54F6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C10AB4D4-8C39-82C5-BD3F-900B25A69A2D">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:39:16 UTC</createdTime>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<engineerTo>
+<item key="F1C9A3DF-B7A3-CDFA-803A-40A28AE54F6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="2A6BC1CA-1385-EFC5-9D86-A0C6BE5B822C">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:39:34 UTC</createdTime>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<engineerTo>
+<item key="F1C9A3DF-B7A3-CDFA-803A-40A28AE54F6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="471FA9D2-7C32-DD20-EC51-E7C9EA4A2B68">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:40:24 UTC</createdTime>
+<generatorID>08D12C72-0682-0FFE-7711-3CC6D7481D5B</generatorID>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<engineerTo>
+<item key="F1C9A3DF-B7A3-CDFA-803A-40A28AE54F6E" value="true"/>
+</engineerTo>
+<referedAttribute>C42E8765-8527-1DA4-0434-BC12C823B330</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3DE86EA-5D79-ADA3-07BF-2B0FED248C95" name="EMPLEADOS PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:39:09 UTC</createdTime>
+<ownerDesignName>ejericico1-tema04</ownerDesignName>
+<engineerTo>
+<item key="F1C9A3DF-B7A3-CDFA-803A-40A28AE54F6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E949293-BEF9-8B6A-4797-111B7D65AA3A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

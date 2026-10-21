@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64603E89-B60B-53E4-9ECA-0821439E7F28" name="EQUIPO">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>49D5EC92-6CF9-F01F-DECD-C1CF346CB8FE</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="81B50C3B-1DD3-AC64-2C77-ACEDBC50A247">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>417B1D54-DFFA-D960-8A33-E430C9CB864A</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cuidad" id="124A9153-B537-EA7E-39FC-75E482082C53">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>09D8AE96-F147-4BD8-22BD-7D8628E2FE5A</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ndesocios" id="5C20501C-98FA-CB58-71CA-3B9B8F1848D1">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>A0D9EFF6-7629-2C3B-40B4-00251CC043CB</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D112C04A-E6CB-2727-0439-C5E3C256B330" name="EQUIPO_PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>ABC5B836-9C30-846F-909B-EB5207C7A82E</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81B50C3B-1DD3-AC64-2C77-ACEDBC50A247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

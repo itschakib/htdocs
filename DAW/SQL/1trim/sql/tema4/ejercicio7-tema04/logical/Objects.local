@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="7A76FE22-2780-18C6-5372-FFDE0F3A152A" name="ATRICULO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1D9E95CE-B69E-125D-3FAB-8791301D7619" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E8EB34FC-DA9E-3306-F224-44B427D55834" name="AUTOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1D9E95CE-B69E-125D-3FAB-8791301D7619" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F1BAA9AB-1404-64F1-1F9E-66673D200DC4" name="REVISTA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1D9E95CE-B69E-125D-3FAB-8791301D7619" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="3717AF59-F947-CE31-C997-10B8D9A99B81" name="contiene" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="1D9E95CE-B69E-125D-3FAB-8791301D7619" propertySourceId="F1BAA9AB-1404-64F1-1F9E-66673D200DC4" propertyTargetId="7A76FE22-2780-18C6-5372-FFDE0F3A152A"/>
+   <object objectType="Relation" objectID="9B36F4F7-D1AD-988E-D169-DDE911A16A80" name="escribe" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="1D9E95CE-B69E-125D-3FAB-8791301D7619" propertySourceId="7A76FE22-2780-18C6-5372-FFDE0F3A152A" propertyTargetId="E8EB34FC-DA9E-3306-F224-44B427D55834"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48E5EEFC-FF97-AC56-A62B-3CABF22EB02D" name="PROFESORES">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:11:21 UTC</createdTime>
+<ownerDesignName>ejercicio5-tema04</ownerDesignName>
+<engineerTo>
+<item key="5AB21715-1DE9-5B27-C8EB-6D54E29EDF77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nif" id="E0109584-0158-EF3C-9142-790E94AE2E56">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:12:05 UTC</createdTime>
+<ownerDesignName>ejercicio5-tema04</ownerDesignName>
+<engineerTo>
+<item key="5AB21715-1DE9-5B27-C8EB-6D54E29EDF77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="93134F1F-073F-DDFF-4228-E3C80926D880">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:12:20 UTC</createdTime>
+<ownerDesignName>ejercicio5-tema04</ownerDesignName>
+<engineerTo>
+<item key="5AB21715-1DE9-5B27-C8EB-6D54E29EDF77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="4F2A06D7-18C0-4A00-9EC6-8869C015D811">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:12:20 UTC</createdTime>
+<ownerDesignName>ejercicio5-tema04</ownerDesignName>
+<engineerTo>
+<item key="5AB21715-1DE9-5B27-C8EB-6D54E29EDF77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="360D0422-C1A7-EC17-870A-B88778C30120">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:12:20 UTC</createdTime>
+<ownerDesignName>ejercicio5-tema04</ownerDesignName>
+<engineerTo>
+<item key="5AB21715-1DE9-5B27-C8EB-6D54E29EDF77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="2DCFF4AA-4507-24C3-0DCF-87E952F40742">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:12:21 UTC</createdTime>
+<ownerDesignName>ejercicio5-tema04</ownerDesignName>
+<engineerTo>
+<item key="5AB21715-1DE9-5B27-C8EB-6D54E29EDF77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07AF8658-0DDD-EE37-DE1F-548217C65F79" name="PROFESORES PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:13:42 UTC</createdTime>
+<ownerDesignName>ejercicio5-tema04</ownerDesignName>
+<engineerTo>
+<item key="5AB21715-1DE9-5B27-C8EB-6D54E29EDF77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0109584-0158-EF3C-9142-790E94AE2E56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

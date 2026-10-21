@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49D5EC92-6CF9-F01F-DECD-C1CF346CB8FE" name="EQUIPO">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:44:19 UTC</createdTime>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<engineerTo>
+<item key="08660595-35F0-732D-78EF-174C5A1444D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="417B1D54-DFFA-D960-8A33-E430C9CB864A">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:44:38 UTC</createdTime>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<engineerTo>
+<item key="08660595-35F0-732D-78EF-174C5A1444D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cuidad" id="09D8AE96-F147-4BD8-22BD-7D8628E2FE5A">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:44:38 UTC</createdTime>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<engineerTo>
+<item key="08660595-35F0-732D-78EF-174C5A1444D6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ndesocios" id="A0D9EFF6-7629-2C3B-40B4-00251CC043CB">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:44:38 UTC</createdTime>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<engineerTo>
+<item key="08660595-35F0-732D-78EF-174C5A1444D6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABC5B836-9C30-846F-909B-EB5207C7A82E" name="EQUIPO PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:44:51 UTC</createdTime>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<engineerTo>
+<item key="08660595-35F0-732D-78EF-174C5A1444D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>417B1D54-DFFA-D960-8A33-E430C9CB864A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

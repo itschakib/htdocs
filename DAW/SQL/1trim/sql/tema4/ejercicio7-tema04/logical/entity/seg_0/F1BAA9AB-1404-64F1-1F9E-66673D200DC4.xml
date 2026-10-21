@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1BAA9AB-1404-64F1-1F9E-66673D200DC4" name="REVISTA">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 07:27:59 UTC</createdTime>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<engineerTo>
+<item key="0ED223D5-E530-C4FC-2C09-3A47C78C132D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="issn" id="E030C849-8EC6-BA69-3999-CE42BE8460D8">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 07:30:16 UTC</createdTime>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<engineerTo>
+<item key="0ED223D5-E530-C4FC-2C09-3A47C78C132D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="año" id="9307D304-A5B8-F374-5C8C-0C863F0BF88E">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:03:09 UTC</createdTime>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<engineerTo>
+<item key="0ED223D5-E530-C4FC-2C09-3A47C78C132D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="E5375FD3-30C9-8947-34FE-7CBCA4D9DE9C">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:03:21 UTC</createdTime>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<engineerTo>
+<item key="0ED223D5-E530-C4FC-2C09-3A47C78C132D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3ABF44B5-FED2-FCEC-AB5B-B5D9F28315A6" name="REVISTA PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:04:28 UTC</createdTime>
+<ownerDesignName>ejercicio7-tema4</ownerDesignName>
+<engineerTo>
+<item key="0ED223D5-E530-C4FC-2C09-3A47C78C132D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E030C849-8EC6-BA69-3999-CE42BE8460D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

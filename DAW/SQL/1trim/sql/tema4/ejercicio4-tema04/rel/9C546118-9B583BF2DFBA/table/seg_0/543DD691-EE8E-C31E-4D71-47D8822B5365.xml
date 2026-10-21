@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="543DD691-EE8E-C31E-4D71-47D8822B5365" name="proveedor">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>0E627145-B204-00E8-8BBB-9A6866071095</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nif" id="63B68024-2769-24BE-2E88-65078CE24FD6">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>D427A35F-87E5-EC4D-AB87-AAFCE3BA94BB</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="9BD73DE4-F8AD-B106-1385-6FDDE5DB5FE3">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>6A13EA8F-FE79-A044-EAFD-B8C2346A014F</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="CE6768A6-48C1-27B1-8C8A-33B686A56C76">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>9E93D393-A003-A4A5-1BDF-1E5067E1C5A9</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cuidad" id="46D1F786-8834-07B2-8F9D-494FA8D2C347">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>D1BE3C6D-C4F5-1868-1FED-6DDF34C1C7A2</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CB0ECA4-1BDA-80B0-9235-4FB95853A870" name="proveedor_PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 09:09:17 UTC</createdTime>
+<generatorID>08B08224-2EF3-0906-7A0F-F5E417942ADE</generatorID>
+<ownerDesignName>ejercicio</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63B68024-2769-24BE-2E88-65078CE24FD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

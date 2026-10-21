@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6DC17F2-8908-DBA1-F3C7-8B412FDD9D45" name="CAMIONERO">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:09:51 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dni" id="A01BBEEF-0AEF-DA54-BBB0-6222571717F4">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:10:04 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="69AD4A16-506E-6A3E-4DC8-F38B44E98E16">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:10:18 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="A7A8DA4F-E597-653F-6298-ADB89417AB06">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:10:35 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dirección" id="654DB6BA-470B-954F-8288-E31EFB652376">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:10:42 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="F8978418-491F-8A85-2C2B-A1DFB08AA25E">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:10:52 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oblación" id="0577952D-6432-CBCD-2C99-410BDDB23E63">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:11:06 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F566E7E6-D491-15B6-232D-5FFD0717B443" name="ENCARGADOS PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-30 09:10:09 UTC</createdTime>
+<ownerDesignName>ejercicio2</ownerDesignName>
+<engineerTo>
+<item key="4C38F9FD-31DE-D397-DF81-8D028B50FB85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A01BBEEF-0AEF-DA54-BBB0-6222571717F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

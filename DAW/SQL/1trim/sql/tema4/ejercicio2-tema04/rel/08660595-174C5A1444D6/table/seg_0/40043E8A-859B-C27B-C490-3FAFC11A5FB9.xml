@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40043E8A-859B-C27B-C490-3FAFC11A5FB9" name="JUGADOR">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>091B97CB-46F8-FC9F-17BB-ABA9EFA6FF50</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="05CC5E7E-2DBE-C1E6-A6D1-C0DA75F34CD2">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>CAE60AD1-E3E7-D4AE-A33D-47896E6A8DBB</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="2880C8B5-DF37-3290-FAE0-5617160E1382">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>764944F0-6600-BEE0-0AF6-E1237E0FAB8B</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dorsal" id="36C8CC81-26F3-4025-721E-40C2658A1C98">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>58D52594-BA45-4CE2-282D-78C9C58BA587</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puesto" id="414C8A6A-B283-EC37-3E6E-67BA10469BCD">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>FE827AA9-890C-A86B-BAD7-D5C61B3BF010</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPO_nombre" id="2F19A34C-54B4-6C24-EBDE-573EF4FFB4E0">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>99BB8C60-8DEF-8520-D3DC-C6E891966A93</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5884B788-64E2-E132-36B3-0D99BBD99BB0" referredColumn="81B50C3B-1DD3-AC64-2C77-ACEDBC50A247"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35855681-3210-C094-7B4A-55D26811BEAA" name="JUGADOR_PK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>9694F85C-11EF-2120-FD54-6052E126C534</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05CC5E7E-2DBE-C1E6-A6D1-C0DA75F34CD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4497AA1E-25A2-10E7-E5C6-206B150E0107" name="JUGADOR_EQUIPO_FK">
+<createdBy>Chaki</createdBy>
+<createdTime>2025-10-23 08:50:52 UTC</createdTime>
+<generatorID>695414F1-D01A-B890-473B-45387D2793D9</generatorID>
+<ownerDesignName>ejercicio2-tema04</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F19A34C-54B4-6C24-EBDE-573EF4FFB4E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
