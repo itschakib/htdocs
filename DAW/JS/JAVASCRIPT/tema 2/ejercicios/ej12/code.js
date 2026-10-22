@@ -5,32 +5,25 @@ function inicializador() {
   let derecha = document.getElementById("derecha");
   let izquierda = document.getElementById("izquierda");
 
-
-
-
   // EXTRA COSAS
   let arriba = document.getElementById("arriba");
   let abajo = document.getElementById("abajo");
-
 
   // nota el posicion incial es 100px desde arriba y 200px desde  la izquierda
   caja.style.position = "absolute";
   caja.style.top = "100px";
   caja.style.left = "200px";
 
-  // se mueve 5px a la derecha
+  //Derecha
   derecha.onclick = function () {
     caja.style.left = parseInt(caja.style.left) + 5 + "px";
   };
 
-  // se mueve 5px a la derecha
+  //Izquierda
   izquierda.onclick = function () {
-    //aqui podemos cambiar le tambien style.right y ponemos + 5 
-    //podemos utilizar el mismo left y solo le quitamos 5px
     caja.style.left = parseInt(caja.style.left) - 5 + "px";
   };
 
-  
   //   EXTRA COSAS
   arriba.onclick = function () {
     caja.style.top = parseInt(caja.style.top) - 5 + "px";
@@ -40,8 +33,6 @@ function inicializador() {
     caja.style.top = parseInt(caja.style.top) + 5 + "px";
   };
 
-
-  
   //aportado b
 
   let cajaB = document.getElementById("cajaB");
@@ -52,29 +43,26 @@ function inicializador() {
   cajaB.style.top = "300px";
   cajaB.style.left = "200px";
 
+  console.log("CAJA: " + cajaB.clientWidth);
+  console.log("PANTALLA: " + screen.availWidth);
+  console.log("PARAR: " + (screen.availWidth - cajaB.clientWidth));
 
-  
-  console.log("CAJA: "+cajaB.clientWidth);
-  console.log("PANTALLA: "+screen.availWidth);
-  console.log("PARAR: "+(screen.availWidth-cajaB.clientWidth));
-  
-  
-  
   derechaB.onclick = function () {
     let posicion = parseInt(cajaB.style.left);
+    let limite = window.innerWidth - cajaB.offsetWidth;
 
-    if (posicion < window.innerWidth-cajaB.offsetWidth) {
+    if (posicion + 100 < limite) {
       cajaB.style.left = posicion + 100 + "px";
       console.log(cajaB.style.left);
-      
     }
   };
 
   izquierdaB.onclick = function () {
     let posicion = parseInt(cajaB.style.left);
+    let limite = window.innerWidth - cajaB.offsetWidth;
 
-    if (posicion > 100) {
-      cajaB.style.left = posicion - 25 + "px";
+    if (posicion + 50 > 0) {
+      cajaB.style.left = posicion - 50 + "px";
     }
   };
 

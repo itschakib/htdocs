@@ -1,0 +1,58 @@
+
+/* General page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Main menu */
+.menu {
+    width: 300px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+/* Main sections */
+.apartado {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+/* Hover effect */
+.apartado:hover {
+    background-color: #555;
+}
+
+/* Submenus hidden by default */
+.submenu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Submenu items */
+.submenu li {
+    background-color: #ddd;
+    color: #333;
+    padding: 12px 20px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+/* Submenu hover */
+.submenu li:hover {
+    background-color: #bbb;
+}
