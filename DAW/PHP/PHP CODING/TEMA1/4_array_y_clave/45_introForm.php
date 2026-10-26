@@ -7,7 +7,9 @@
 </head>
 <body>
     <h3>Cómo funciona una petición</h3>
-    <p>Cada vez que el navegador pide esta página, PHP se ejecuta desde cero y rellena unos arrays especiales (superglobales): $_GET, $_POST, $_REQUEST y $_SERVER. Todos estos array son arrays completamente normales que funcionan exactamente igual que cualquier otro array que nosotros creemos.</p>
+    <p>Cada vez que el navegador pide esta página, PHP se ejecuta desde cero y rellena unos arrays especiales (superglobales):
+         $_GET, $_POST, $_REQUEST y $_SERVER. Todos estos array son arrays completamente normales que funcionan exactamente igual
+          que cualquier otro array que nosotros creemos.</p>
     <?php
         echo "<pre>";print_r($_GET);echo "</pre>";
         echo "<pre>";print_r($_POST);echo "</pre>";
